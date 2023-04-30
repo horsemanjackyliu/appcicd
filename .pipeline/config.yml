@@ -12,7 +12,7 @@ stages:
   Acceptance:
     cloudFoundryDeploy: false
     cfApiEndpoint: "https://api.cf.eu10.hana.ondemand.com"
-    cfOrg: "APJEXTABAPORG"
+    cfOrg: "SAP Internal - P&T CEE_apjcoe-x66183k9"
     cfSpace: "dev"
     cfAppName: "appcicd"
     cfCredentialsId: "deploy-to-cf"
@@ -23,7 +23,7 @@ stages:
   Release:
     cloudFoundryDeploy: true
     cfApiEndpoint: "https://api.cf.eu10.hana.ondemand.com"
-    cfOrg: "APJEXTABAPORG"
+    cfOrg: "SAP Internal - P&T CEE_apjcoe-x66183k9"
     cfSpace: "dev"
     cfAppName: "appcicd"
     cfCredentialsId: "deploy-to-cf"

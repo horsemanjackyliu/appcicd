@@ -1,2 +1,2 @@
-# my appcicd - App CICD
+# appcicd - App CICD
 > App CICD
